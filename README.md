@@ -5,8 +5,8 @@ A heap allocator implemented from scratch in C.
 ## How it works
 - Fixed 1024-byte heap backed by a static array
 - Each allocation prefixed with a Block header (size + free flag)
-- `my_malloc` — first-fit scan of free list, falls back to bump allocation
-- `my_free` — O(1) flag flip
+- `my_malloc` - first-fit scan of free list, falls back to bump allocation
+- `my_free` - O(1) flag flip
 
 ## What it demonstrates
 - Pointer arithmetic (`block + 1` to step past header)
