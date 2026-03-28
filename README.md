@@ -21,4 +21,5 @@ A heap allocator implemented from scratch in C.
 - 1024 byte heap only
 
 ## Build
-gcc allocator.c main.c -o allocator && ./allocator
+gcc allocator.c main.c -o allocator 
+./allocator.exe
